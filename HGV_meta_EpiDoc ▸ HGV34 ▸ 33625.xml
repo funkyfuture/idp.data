@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv33625">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Loan of Seed Corn</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">33625</idno>
+            <idno type="TM">33625</idno>
+            <idno type="ddb-perseus-style">0057;2;147</idno>
+            <idno type="ddb-filename">p.amh.2.147</idno>
+            <idno type="ddb-hybrid">p.amh;2;147</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>New York</settlement>
+                  </placeName>
+                  <collection>Pierpont Morgan Library</collection>
+                  <idno type="invNo">Amherst Gr. 147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Phebichis (Herakleopolites, Ägypten)</origPlace>
+                     <origDate notBefore="0307" notAfter="0381">307 - 381</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737005 http://www.trismegistos.org/place/1755">Phebichis</placeName>
+                        <placeName n="2" type="ancient" subtype="nome">Herakleopolites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Bestätigung</term>
+               <term n="2">Kredit</term>
+               <term n="3">Saatgut</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-22T04:12:06-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-09-22T04:09:17-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2021-10-11T03:59:55-04:00"
+                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Corrections in ll.1,2
+
+Correction of date: 307-381
+
+G. van Loon, Tyche 33 (2018) 247 (KorrTyche 883).</change>
+         <change who="HGV" when="1996-12-09">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Amh.</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">147</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=350407"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. Tyche 33, 2018, S. 247, Korr. Tyche 883.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

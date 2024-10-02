@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv38353">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vereinbarte Öllieferung?</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">38353</idno>
+            <idno type="TM">38353</idno>
+            <idno type="ddb-perseus-style">0239;1;4683</idno>
+            <idno type="ddb-filename">sb.1.4683</idno>
+            <idno type="ddb-hybrid">sb;1;4683</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Paris</settlement>
+                  </placeName>
+                  <collection>Louvre</collection>
+                  <idno type="invNo">AF 6846 (App. 69(</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Antinoopolis ?; Hermonthis ?</origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low">VI - VII</origDate>
+                  </origin>
+                  <provenance n="1" type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   cert="low"
+                                   ref="https://pleiades.stoa.org/places/756518 https://www.trismegistos.org/place/2774">Antinoopolis</placeName>
+                        <placeName n="2" type="ancient"/>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="located">
+                     <p xml:id="geoEDCI4">
+                        <placeName type="ancient"
+                                   cert="low"
+                                   ref="https://www.trismegistos.org/place/812 https://pleiades.stoa.org/places/786036">Hermonthis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Kauf (Lieferung)</term>
+               <term n="3">Öl</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-09-14T13:42:43-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-06-16T12:03:14-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-01-17T03:29:42-05:00"
+                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Added alternative provenance: Hermonthis 
+
+N. Gonis, Tyche 32 (2017) 264 (KorrTyche 852)</change>
+         <change who="HGV" when="1995-05-30">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. Diethart - Worp, Notarsunterschriften, S. 44. Zum Ort vgl. BL IX, S. 240, ZPE 140, 2002, S. 152-153, mit Anm. 10, und Tyche 32, 2017, S. 263-265, Korr. Tyche 852. Datierung: 1. Indiktion.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">4683</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://aquila.zaw.uni-heidelberg.de/bl/hgv/38353"/>
+               </bibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">240</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">192</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+      </body>
+  </text>
+</TEI>

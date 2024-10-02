@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv41717">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Short Note on SB XXII 15793</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">41717</idno>
+            <idno type="TM">41717</idno>
+            <idno type="ddb-perseus-style">0239;22;15793</idno>
+            <idno type="ddb-filename">zpe.186.257</idno>
+            <idno type="ddb-hybrid">zpe;186;257</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Ann Arbor</settlement>
+                  </placeName>
+                  <collection>Michigan University, Library</collection>
+                  <idno type="invNo">P. 5865 a</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Karanis (Arsinoites, Ägypten); Schreibort: Krokodilopolis (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0222" notAfter="0235">222 - 235</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p xml:id="geoHGB1F5">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/1008 https://pleiades.stoa.org/places/736932">Karanis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p xml:id="geoC2BE44">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="www.trismegistos.org/place/327 https://pleiades.stoa.org/places/736948">Krokodilopolis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="papyri.info/biblio/86743"/>
+                  <biblScope type="pp">257</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Deklaration</term>
+               <term n="2">Anmeldung</term>
+               <term n="3">Haus (käuflich erworbenes)</term>
+               <term n="4">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-22T09:33:42-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-09-22T09:24:49-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-02-23T05:40:18-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung der Metadaten und des Textes an sowie Eingabe einer Übersetzung nach ZPE 186, 2013, S. 257:
+
+Da kein auf den Text bezogener Titel angegeben war, habe ich den bisherigen in den Metadaten beibehalten.
+
+In Z. 7 ist im Apparat eine Klammer angegeben, die im Text nicht gesetzt wurde.</change>
+         <change who="HGV" when="2002-03-14">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Tag: 5. - 14. März.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">186</biblScope>
+                  <biblScope n="2" type="fascicle">(2013)</biblScope>
+                  <biblScope n="3" type="pages">S. 257</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">S. 256</bibl>
+               <bibl type="illustration" n="2">ZPE 106, 1995, Tafel IX d</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://quod.lib.umich.edu/a/apis/x-2573"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">SB 22 15793</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

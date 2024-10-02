@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     n="0239;1;5565"
+     xml:id="sb.1.5565"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>sb.1.5565</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>NYU Digital Library Technology Services</authority>
+            <idno type="filename">sb.1.5565</idno>
+            <idno type="ddb-perseus-style">0239;1;5565</idno>
+            <idno type="ddb-hybrid">sb;1;5565</idno>
+            <idno type="HGV">23185</idno>
+            <idno type="TM">23185</idno>
+            <availability>
+               <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         
+      </profileDesc>
+      <revisionDesc>
+          <change when="2020-12-15T09:03:39-05:00"
+                 who="https://papyri.info/editor/users/esthergarel">Finalized - Ready.</change>
+          <change when="2020-12-15T09:03:02-05:00"
+                 who="https://papyri.info/editor/users/esthergarel">Add dummy header for original identifier 'papyri.info/ddbdp/sb;1;5565' pointing to new identifier 'papyri.info/ddbdp/p.kru;;17'</change>
+          <change when="2020-12-14T05:43:53-05:00"
+                 who="https://papyri.info/editor/users/esthergarel">Vote - AcceptText - lin1=&gt; add a first line 1. lost.?lin
+
+lin2=&gt; 2. [.1] ⲛϥ&lt;:ὑπογράφειν=grc|reg|ϩⲩⲡⲟⲅⲣⲁ[ⲫⲉ]:&gt;
+
+lin8=&gt; [ⲛⲟⲩⲱⲧ ⲉⲣⲙⲟⲛⲧ]
+
+lin12=&gt; ⲉ̣ⲓ̣ⲱⲣ̣[ⲕ ⲙⲡⲛⲟⲩⲧⲉ]
+
+lin14=&gt; 14. -ⲩⲧⲉ .3ⲉⲓ.2ⲣ [.?]
+
+lin16=&gt; ⲙⲡⲁ.1[.?]
+
+lin17=&gt; 17. [.2]ⲱ̣ϥ̣ ; [.?] [ϫⲓⲛ] ⲛϥ[ⲥⲛⲧⲉ]
+
+lin18=&gt; [ϣ]ⲁ ⲣⲁⲧⲏⲩ
+
+lin25-28=&gt; change all occurrences of οὐδέ to οὔτε
+
+lin26=&gt; ϣⲟⲩ ⲛⲟⲩⲁ, ϣⲟⲩ ⲛⲥⲛⲁⲩ
+
+lin29=&gt; ϣⲛ ϣⲏⲣⲉ, ⲛⲥⲉ[.3]
+
+lin41=&gt; ϩⲁⲣ.3
+
+lin43=&gt; add space before [.13]
+
+lin47=&gt;  47. $m2
+
+lin50=&gt; 50. $m3
+
+lin51=&gt; 51. $m1
+
+</change>
+          <change when="2019-10-10T11:31:31-04:00"
+                 who="https://papyri.info/editor/users/SAMUELCOOK">Vote - AcceptText - lin2=&gt; &lt;:ὑπογράφω=grc|reg|ϩⲩⲡⲟⲅⲣⲁ[ⲫⲉ]:&gt; to &lt;:ὑπογράφειν=grc|reg|ϩⲩⲡⲟⲅⲣⲁ[ⲫⲉ]:&gt;
+
+lin3=&gt; &lt;:παρακαλέω=grc|reg|ⲡⲁⲣⲁⲕⲁⲗⲉⲓ:&gt; to &lt;:παρακαλεῖν=grc|reg|ⲡⲁⲣⲁⲕⲁⲗⲉⲓ:&gt;
+
+lin4=&gt; &lt;:μαρτυρίζω=grc|reg|ⲙⲁⲣⲧⲩⲣⲓ[ⲍⲉ]:&gt; to &lt;:μαρτυρίζειν=grc|reg|ⲙⲁⲣⲧⲩⲣⲓ[ⲍⲉ]:&gt;
+
+lin6=&gt; &lt;:παρασαλεύω=grc|reg|ⲡⲁⲣⲁⲥⲁⲗⲉⲩⲉ:&gt; to &lt;:παρασαλεύειν=grc|reg|ⲡⲁⲣⲁⲥⲁⲗⲉⲩⲉ:&gt;
+
+lin7=&gt; ⲧϣ[ⲉⲉⲣⲉ ⲛ] to ⲧϣ[ⲉⲉⲣⲉ] [ⲛ]
+
+lin9=&gt; ⲁⲓϫⲓ ⲛ to ⲁⲓϫⲓ \ⲧ/ⲛ
+
+lin12=&gt; ⲧⲓ&lt;:ὁμολογέω=grc|reg|ϩⲟⲙⲟⲗⲟⲅⲉⲓ:&gt; to ⲧⲓ&lt;:ὁμολογεῖν=grc|reg|ϩⲟⲙⲟⲗⲟⲅⲉⲓ:&gt;
+
+lin16=&gt; ⲙⲡⲁ .[.?] to ⲙⲡⲁ .1 [.?]
+
+lin17=&gt; ⲧⲁⲣⲛϣ[.?] to ⲧⲁⲣⲛϣ̣[.?] (underdot under shai)
+
+lin18=&gt; &lt;:ὑπόκειμαι=grc|reg|ϩ̣ⲩ̣ⲡ̣ⲟ̣ to &lt;: ὑποκεῖσθαι=grc|reg|ϩ̣ⲩ̣ⲡ̣ⲟ̣
+
+lin20=&gt; ϩⲓⲧⲟⲧⲉ to ϩⲓⲧⲟⲟⲧⲉ
+
+lin21=&gt; 21.- to 21.
+
+lin21=&gt; &lt;:δηλόω=grc|reg|[ⲇ]ⲏⲗⲟⲩ:&gt; to &lt;:δηλοῦν=grc|reg|[ⲇ]ⲏⲗⲟⲩ:&gt;
+
+lin22=&gt; 22.- to 22.
+
+lin22=&gt; &lt;:χράομαι=grc|reg|ⲭⲣⲱ:&gt; to &lt;:χρῆσθαι=grc|reg|ⲭⲣⲱ:&gt;
+
+lin23=&gt; &lt;:ποτέ=grc|reg|ⲡⲟⲧⲉ:&gt; &lt;:καιρός=grc|reg|ⲕⲁⲓⲣⲱ:&gt; change to ~|ποτὲ καιρῷ|~grc
+
+lin25=&gt; ϩⲟⲛ to ⲥⲟⲛ
+
+lin25=&gt; ϩⲱ[ⲛⲉ] to ⲥⲱ[ⲛⲉ]
+
+lin27=&gt; ⲙ[ⲛ ⲧⲁⲙ]ⲁⲁⲩ to ⲙ[ⲛ] [ⲧⲁⲙ]ⲁⲁⲩ
+
+lin27=&gt; ϩⲟⲟⲩ[ⲧ] to ⲛϩⲟⲟⲩ[ⲧ]
+
+lin28=&gt; ⲙⲛⲛⲁϣⲉⲉⲣⲉ to ⲙⲛ ⲛⲁϣⲉⲉⲣⲉ
+
+lin28=&gt; ⲛ̣ⲧ̣ⲁ̣ⲓϫⲡⲟ[ⲟ] to ⲛ̣ⲧ̣ⲁ̣ⲓϫⲡⲟ[ⲟⲩ]
+
+lin30=&gt; &lt;:ἐνάγω=grc|reg|ⲉⲛⲁⲅⲉ:&gt; to &lt;:ἐνάγειν=grc|reg|ⲉⲛⲁⲅⲉ:&gt;
+
+lin31=&gt;&lt;:ἐγκαλέω=grc|reg|ⲉⲅⲕⲁⲗ[ⲉⲓ]:&gt; to &lt;:ἐγκαλεῖν=grc|reg|ⲉⲅⲕⲁⲗ[ⲉⲓ]:&gt;
+
+lin31=&gt; ⲏ to &lt;ἤ:=grc|reg|ⲏ:&gt;
+
+lin32=&gt; ⲏ to &lt;ἤ:=grc|reg|ⲏ:&gt;
+
+lin33=&gt; ⲕⲁⲧⲁⲣⲟ to &lt;:κατά=grc|reg|ⲕⲁⲧⲁ:&gt;ⲣⲟ
+
+lin35=&gt; &lt;:ὠφελέω=grc|reg|ⲱⲫ[ⲉⲓⲗⲉ]:&gt; to &lt;: ὠφελεῖν=grc|reg|ⲱⲫ[ⲉⲓⲗⲉ]:&gt;
+
+lin35=&gt; [ⲛⲁ]ⲁⲩ to [ⲛⲗⲁ]ⲁⲩ
+
+lin39=&gt; [ⲙⲙⲁⲃⲧⲁⲥⲉ] to [ⲙ&lt;:#ⲙⲁⲃⲧⲁⲥⲉ=36#&gt;]
+
+lin41=&gt; &lt;:ὁρίζω=grc|reg|ϩⲟⲣⲓⲍⲉ:&gt; to &lt;:ὁρίζειν=grc|reg|ϩⲟⲣⲓⲍⲉ:&gt;
+
+lin42=&gt; ⲇⲉ to &lt;:δέ=grc|reg|ⲇⲉ:&gt;
+
+lin44=&gt; &lt;:ἐμφανίζω=grc|reg|[ⲙ] to &lt;:ἐμφανίζειν=grc|reg|[ⲙ]
+
+lin46=&gt; &lt;:ὁμολογέω=grc|reg|ϩⲟⲙⲟⲗⲟⲅⲉⲓ:&gt; to &lt;:ὁμολογεῖν=grc|reg|ϩⲟⲙⲟⲗⲟⲅⲉⲓ:&gt;
+
+lin47=&gt; &lt;:στοιχέομαι=grc|reg|ⲥⲧⲉⲭⲉ:&gt; to &lt;:στοιχεῖν=grc|reg|ⲥⲧⲉⲭⲉ:&gt;
+
+lin53=&gt; &lt;:αἰτέω=grc|reg|ⲁⲓⲧⲉⲓ:&gt; to &lt;:αἰτεῖν=grc|reg|ⲁⲓⲧⲉⲓ:&gt;
+
+lin53=&gt;  ⲙⲁϥⲛⲟⲓ to  ⲙⲁϥ&lt;:νοεῖν=grc|reg|ⲛⲟⲓ:&gt;
+
+lin54=&gt; ⲡⲣⲟⲥ to &lt;:πρός=grc|reg|ⲡⲣⲟⲥ:&gt;
+
+lin55=&gt; (Ἀριστοφ(άνους)) to (Ἀριστοφ(άνου))
+
+</change>
+          <change when="2014-10-29T14:02:23.663-04:00"
+                 who="https://papyri.info/editor/users/Georg">word separation made better</change>
+          <change when="2014-03-10T07:42:16-04:00"
+                 who="https://papyri.info/editor/users/james.cowey">Vote - Return-Straight-to-Sender - As requested.</change>
+          <change when="2013-04-28T10:43:59.012-04:00"
+                 who="https://papyri.info/editor/users/Georg">Coptic lines added</change>
+          <change when="2013-04-28T10:43:58-04:00" who="https://papyri.info/editor/users/Georg">Submit - Coptic lines added</change>
+          <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">rationalized languages in langUsage</change>
+          <change when="2011-12-14" who="https://papyri.info/editor/users/gabrielbodard">changed editor names to URIs</change>
+          <change when="2010-05-05" who="https://papyri.info/editor/users/gabrielbodard">changed schema; added xml:space=preserve; indented; moved title/@n to idno</change>
+          <change when="2009-11-12" who="https://papyri.info/editor/users/gabrielbodard">Added language la-Grek</change>
+          <change when="2009-06-27" who="https://papyri.info/editor/users/gabrielbodard">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema)</change>
+          <change when="2008-12-23" who="http://papyri.info/about">Automated split from transcoder files</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head n="23185" xml:lang="en">
+            <date>AD-725</date>
+            <placeName>Thebes</placeName>
+            <note xml:lang="en">subsc</note>
+            <ref n="p.kru;;17" type="reprint-in">P.KRU 17</ref>
+         </head>
+         <div xml:lang="grc" type="edition" xml:space="preserve"><ab/></div>
+      </body>
+   </text>
+</TEI>

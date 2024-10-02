@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv18862">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition to the Prefect</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">18862</idno>
+            <idno type="TM">18862</idno>
+            <idno type="ddb-perseus-style">0239;3;7205</idno>
+            <idno type="ddb-filename">p.nekr.23</idno>
+            <idno type="ddb-hybrid">p.nekr;;23</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Paris</settlement>
+                  </placeName>
+                  <collection>Sorbonne</collection>
+                  <idno type="invNo">Inv. Sorb. 675 + Oxford, Sackler Library, Papyrology Rooms 89B/36(a)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Chosis (Oasis Magna, Ägypten)</origPlace>
+                     <origDate notBefore="0290" notAfter="0292">
+                ca. 290 - 292
+                <precision match="../@notBefore" degree="0.5"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/778414 https://www.trismegistos.org/place/3118">Chosis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/619 https://pleiades.stoa.org/places/776210">Oasis Magna</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Eingabe</term>
+               <term>Petechon an den praeses Titius Honoratus</term>
+               <term>drohende Gefährdung seiner Berufsausübung (Einbalsamierer, Bestatter)</term>
+               <term>gehobener Stil</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-27T10:15:50-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2020-08-09T14:39:49-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2020-06-12T10:40:10-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept - This is fine; update digital image link to the following (http://www.papyrologie.paris-sorbonne.fr/photos/PNekr/P.Nekr.23.jpg)</change>
+         <change when="2020-06-12T10:03:24-04:00"
+                 who="http://papyri.info/editor/users/LydiaSchriemer">Submit - Updated metadata following republication in P.Nekr., entered as part of Heidelberg’s Digital Papyrology Webinar, summer 2020.
+
+</change>
+         <change when="2019-02-06T17:17:31-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-02-06T06:55:50-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-02-06T04:36:59-05:00"
+                 who="http://papyri.info/users/ValentinB.">Submit - image ajoutée
+</change>
+         <change who="HGV" when="1995-02-02">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. ANRW II, 10.1, S. 515. Zu Z. 5 vgl. BOEP 4.1 (3. Dez. 2014), S. 5.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Nekr.</title>
+                  <biblScope type="numbers">23</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">246</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">II.2</biblScope>
+                  <biblScope type="pages">131</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">P.Nekr. Plate VIII</bibl>
+               <bibl type="illustration" n="2">RBA 4, 1925, Planche III, S. 667</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="fr">
+               <head xml:lang="de">Französisch:</head>
+               <bibl type="translations">M. Hombert, RBPh 4, 1925, S. 667-668</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/Documentaires/2010675.jpg"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">SB III 7205</bibl>
+               <bibl type="publication" subtype="other" n="2">Hagedorn, ZPE 207 (2018), p. 136 no. 3</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

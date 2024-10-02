@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv37197">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sale of Wine in Advance</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">37197</idno>
+            <idno type="TM">37197</idno>
+            <idno type="ddb-perseus-style">0009;14;4</idno>
+            <idno type="ddb-filename">cpr.14.4</idno>
+            <idno type="ddb-hybrid">cpr;14;4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+                  <collection>Nationalbibliothek</collection>
+                  <idno type="invNo">G 20772</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Alexandru Nesos (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0426" notAfter="0475" precision="low">Mitte V</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1" type="ancient">Alexandru Nesos</placeName>
+                        <placeName n="2" type="ancient" subtype="nome">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Verkauf</term>
+               <term n="2">Wein</term>
+               <term n="3">Didiplun (Maß)</term>
+               <term n="4">Diakon (Panuphios)</term>
+               <term n="5">Preis</term>
+               <term n="6">Vorauszahlung</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-22T03:59:52-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-09-22T03:56:16-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2021-09-27T05:30:32-04:00"
+                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Correction of date: 5th century
+
+S. Kovarik, Tyche 33 (2018) 242 (KorrTyche 873)</change>
+         <change who="HGV" when="1990-02-26">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 14: 10. Indiktion</note>
+            <note type="source">HGV.fp7</note>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">CPR</title>
+                  <biblScope n="1" type="volume">14</biblScope>
+                  <biblScope n="2" type="numbers">4</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Plates 5 + 6</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://data.onb.ac.at/rec/RZ00001963"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. Tyche 33, 2018, S. 242, Korr. Tyche 873.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

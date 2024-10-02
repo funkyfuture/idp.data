@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv73880">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aus einer Vereinssatzung</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">73880</idno>
+            <idno type="TM">73880</idno>
+            <idno type="ddb-perseus-style">0021;;66</idno>
+            <idno type="ddb-filename">o.deiss.66</idno>
+            <idno type="ddb-hybrid">o.deiss;;66</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Sydney</settlement>
+                  </placeName>
+                  <collection>Chau Chak Wing Museum</collection>
+                  <idno type="invNo">NM36.61</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Ägypten</origPlace>
+                     <origDate notBefore="0201" notAfter="0300" precision="low">III</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p xml:id="geoHBFAI5">
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Satzung</term>
+               <term n="2">Verein</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-06-15T10:34:44-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - Ready. Not a new edition; illustration and provenance update only</change>
+         <change when="2022-06-08T08:39:51-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">General - If it is simply a reprinting of the text then "Neudruck: Albrecht Gerber, Buried History 47, 2011, 31"</change>
+         <change when="2022-06-04T16:15:01-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">General - Is this really a new edition or a reprinting of the text which is then discussed. Have not found the article online. </change>
+         <change when="2022-06-04T12:03:40-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Ok. Format Neuedition commentary in accordance with HGV style.</change>
+         <change when="2022-03-23T10:07:03-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Notes: added Neuedition
+
+added print illustration</change>
+         <change when="2022-03-22T08:54:15-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-03-22T07:45:23-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-03-22T06:11:58-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - entered collection, inv.no. and digital image</change>
+         <change who="HGV" when="1999-03-22">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Deiss.</title>
+                  <biblScope type="numbers">66</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+          keine
+          <bibl type="illustration">Buried History 47, 2011, p. 30, fig. 7</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://www.sydney.edu.au/museums/collections_search/?record=ecatalogue.35101"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

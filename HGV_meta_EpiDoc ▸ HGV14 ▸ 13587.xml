@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv13587">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sublease of crown land under koinȇ diamisthôsis</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">13587</idno>
+            <idno type="TM">13587</idno>
+            <idno type="ddb-perseus-style">0206;2;496</idno>
+            <idno type="ddb-filename">apf.61.163</idno>
+            <idno type="ddb-hybrid">apf;61;163</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Berkeley</settlement>
+                  </placeName>
+                  <collection>Bancroft Library</collection>
+                  <idno type="invNo">P. Tebt. 496</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Tebtynis (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0162" notAfter="0166">162 - 166</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Tebtynis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="http://papyri.info/biblio/86393"/>
+                  <biblScope type="pp">163</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Antrag</term>
+               <term n="3">Pacht</term>
+               <term n="4">Land</term>
+               <term n="5">Afterpacht</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-12T10:24:42-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-12T10:14:24-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Change idnos, otherwise looks good.</change>
+         <change when="2023-04-20T02:43:08-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung von Metadaten und Text an sowie Eingabe einer Übersetzung nach APF 61, 2015, S. 163:
+
+Beim ersten Wort in Z. 13 war ich mir nicht sicher, wie die Angabe im Text (?) zu verstehen ist.
+
+Die Angabe im Apparat zu Z. 2 bezieht sich tatsächlich auf Z. 5 (vgl. Kommentar).</change>
+         <change who="HGV" when="1996-05-10">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">APF</title>
+                  <biblScope n="1" type="volume">61</biblScope>
+                  <biblScope n="2" type="fascicle">(2015)</biblScope>
+                  <biblScope n="3" type="pages">S. 163</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+          keine
+          <bibl type="illustration">S. 165</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://dpg.lib.berkeley.edu/webdb/apis/apis2?apisid=819&amp;item=1"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Tebt. 2 496 descr.</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

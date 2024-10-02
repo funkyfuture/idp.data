@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv13999">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Erbstreit</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">13999</idno>
+            <idno type="TM">13999</idno>
+            <idno type="ddb-perseus-style">0239;1;5761</idno>
+            <idno type="ddb-filename">sb.1.5761</idno>
+            <idno type="ddb-hybrid">sb;1;5761</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>London</settlement>
+                  </placeName>
+                  <collection>British Library</collection>
+                  <idno type="invNo">Papyrus 1889</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoites ?, Ägypten</origPlace>
+                     <origDate notBefore="0089" notAfter="0091">89 - 91</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   cert="low"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Akte über einen Erbstreit</term>
+               <term n="2">Protokoll (Prozeß)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-06T16:55:28-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-10-06T16:36:27-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2014-12-09T05:03:11-05:00"
+                 who="http://papyri.info/editor/users/Cillian%20O'Hogan">Submit - I have updated the collection info in the HGV entry to reflect the fact that this is British Library, Papyrus 1889, not British Museum, EA 1889. I can't seem to find a way to correct this in the main PN entry however.Data Entry Error
+
+</change>
+         <change when="2014-12-09T05:00:50-05:00"
+                 who="http://papyri.info/editor/users/Cillian%20O'Hogan">Commit - Updated collection information</change>
+         <change when="2014-12-09T05:03:11.794-05:00"
+                 who="http://papyri.info/editor/users/Cillian%20O'Hogan">I have updated the collection info in the HGV entry to reflect the fact that this is British Library, Papyrus 1889, not British Museum, EA 1889. I can't seem to find a way to correct this in the main PN entry however.Data Entry Error
+</change>
+         <change who="HGV" when="1995-06-29">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Tag: 10. Febr. Zur Datierung vgl. ZPE 17, 1975, S. 278.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 15: 80 - 81</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 15</ref>
+                  <date type="mentioned" notBefore="0080" notAfter="0081">80 - 81</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">5761</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">New Pal. Soc. &lt;1st. ser.&gt;, Part X, Plate 226</bibl>
+               <bibl type="illustration" n="2">Cavallo, Scrittura, S. 66 [43]</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://access.bl.uk/item/viewer/ark:/81055/vdc_100147470598.0x000001"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

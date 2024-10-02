@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv17861">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Landpachtvertrag</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">17861</idno>
+            <idno type="TM">17861</idno>
+            <idno type="ddb-perseus-style">0239;6;9151</idno>
+            <idno type="ddb-filename">sb.6.9151</idno>
+            <idno type="ddb-hybrid">sb;6;9151</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Hermopolis</origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low">VI - VII</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/727122 http://www.trismegistos.org/place/816">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Pacht</term>
+               <term n="3">Land (Reben)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-31T12:16:08-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-09-06T05:26:27-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good.</change>
+         <change when="2021-10-28T04:21:26-04:00"
+                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Change of date: 6th/7th c.
+
+Corrections in ll. 2, 6, 7, 8, 9, 10, 11
+
+Please insert underdots under initial Alpha of Ἀθανάσιος (l. 9); under Ypsilon of παροῦσα (l. 7).
+
+C. Kreuzsaler, Tyche 34 (2019) 256 (KorrTyche 928).</change>
+         <change who="HGV" when="1993-08-01">Record created</change>
+         <change who="HGV" when="2010-05-17">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 16 vgl. APF 52, 2006, S. 205 und Tyche 24, 2009, S. 222, Korr. Tyche 628. Zu Z. 2, 3-4, 6-11 und zur Datierung vgl. Tyche 34, 2019, S. 256, Korr. Tyche 928.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">6</biblScope>
+                  <biblScope n="2" type="numbers">9151</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://aquila.zaw.uni-heidelberg.de/bl/hgv/17861"/>
+               </bibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">340</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">200/201</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Diethart - Worp, Notarsunterschriften, Tafel 29</bibl>
+               <bibl type="illustration" n="2">Herm. 9.8.1 (Z. 14 - 16)</bibl>
+               <bibl type="illustration" n="3">APF 52, 2006, Tafel XIII</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations">H. Gerstinger, in: Festschrift für P.I. Kukules (1953), S. 209</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://data.onb.ac.at/rec/RZ00006266"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

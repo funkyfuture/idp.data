@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv20407">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Report of Legal Proceedings</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">20407</idno>
+            <idno type="TM">20407</idno>
+            <idno type="ddb-perseus-style">0181;4;707</idno>
+            <idno type="ddb-filename">p.oxy.4.707v</idno>
+            <idno type="ddb-hybrid">p.oxy;4;707v</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Oxford</settlement>
+                  </placeName>
+                  <collection>Sackler Library, Papyrology Rooms</collection>
+                  <idno type="invNo">P. Oxy. 707 Vo - 'Not yet found'; see location lists</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate notBefore="0135" notAfter="0138">135 - 138</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736982 http://www.trismegistos.org/place/2722 http://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Protokoll</term>
+               <term n="2">Prozeß</term>
+               <term n="3">Verpflichtungen aus einem Vertrag (Pacht</term>
+               <term n="4">Land) zur Erneuerung diverser Bauten wurden nicht erfüllt</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-25T06:40:29-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-25T06:19:18-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - OK</change>
+         <change when="2021-07-29T11:23:20-04:00"
+                 who="http://papyri.info/editor/users/GiulianoSidro">Submit - updated metatada on location
+
+papyrus likely lost; see location lists</change>
+         <change when="2021-07-29T11:22:55-04:00"
+                 who="http://papyri.info/editor/users/GiulianoSidro">Commit - updated inv. papyrus likely lost</change>
+         <change who="HGV" when="1996-06-20">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Kol. I: Abschrift eines Dokuments von Anfang des 2. Jh.; Kol. II, Z. 18: 129 - 130; Z. 44: 135 - 136; Z. 33: 134 - 135</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item n="1">
+                  <ref>Kol. II, Z. 18</ref>
+                  <date type="mentioned" notBefore="0129" notAfter="0130">129 - 130</date>
+               </item>
+               <item n="2">
+                  <ref>Z. 33</ref>
+                  <date type="mentioned" notBefore="0134" notAfter="0135">134 - 135</date>
+               </item>
+               <item n="3">
+                  <ref>Z. 44</ref>
+                  <date type="mentioned" notBefore="0135" notAfter="0136">135 - 136</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope n="1" type="volume">4</biblScope>
+                  <biblScope n="2" type="numbers">707</biblScope>
+                  <biblScope n="3" type="side">V</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">237</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Kloppenborg, Tenants in the Vineyard (2006), S. 503</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

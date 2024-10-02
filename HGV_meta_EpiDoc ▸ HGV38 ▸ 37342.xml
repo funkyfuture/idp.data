@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv37342">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Loan on, or advance sale of, crop</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">37342</idno>
+            <idno type="TM">37342</idno>
+            <idno type="ddb-perseus-style">0164;;35</idno>
+            <idno type="ddb-filename">p.michael.35</idno>
+            <idno type="ddb-hybrid">p.michael;;35</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate when="0652-04-02">
+                2. Apr. 652 (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@when)"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736982 http://www.trismegistos.org/place/2722 http://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Kauf</term>
+               <term n="3">Lieferung</term>
+               <term n="4">Getreide (?) oder Brot (?)</term>
+               <term n="5">Notarsunterschrift</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-08T10:50:54-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-12-14T06:37:42-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Just date to 652 (?)</change>
+         <change when="2021-12-13T04:38:22-05:00"
+                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Addition of alternative date: 2.4.652 (?)
+
+Corrections in (recto) FrA.7, FrB.14, (verso) FrA+B.1-2
+
+Please insert underdot under ἐ in ἐποικίου and Ἀ in Ἀμβιοῦτος (recto, FrA.7)
+
+N. Gonis, Tyche 30 (2015) 228 (KorrTyche 802) </change>
+         <change who="HGV" when="1992-03-30">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. Diethart - Worp, Notarsunterschriften, S. 82. Zur Datierung, zu Fr. A 7, Fr. B 13f. und zur Rückseite vgl. vgl. Tyche 30, 2015, S. 227-230, Korr. Tyche 802.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Michael.</title>
+                  <biblScope type="numbers">35</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://aquila.zaw.uni-heidelberg.de/bl/hgv/37342"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">135</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">C 4-5: Diethart - Worp, Notarsunterschriften, Tafel 44, Oxy. 10.1.2</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://access.bl.uk/item/viewer/ark:/81055/vdc_100147471825.0x000001"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

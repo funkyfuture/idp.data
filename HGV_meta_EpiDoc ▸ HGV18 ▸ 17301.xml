@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv17301">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment eines Pachtvertrages</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">17301</idno>
+            <idno type="TM">17301</idno>
+            <idno type="ddb-perseus-style">0218;;10v</idno>
+            <idno type="ddb-filename">p.vind.bosw.10v</idno>
+            <idno type="ddb-hybrid">p.vind.bosw;;10v</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+                  <collection>Nationalbibliothek</collection>
+                  <idno type="invNo">G 13176 Vo</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate n="1" xml:id="dateAlternativeX" when="0329" cert="low">329 (?)</origDate>
+                     <origDate n="2" xml:id="dateAlternativeY" when="0344" cert="low">344 (?)</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Liste</term>
+               <term n="2">Lieferung (Korn)</term>
+               <term n="3">Artaben</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-20T08:40:16-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-09-20T08:36:39-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Seems correct.</change>
+         <change when="2016-09-08T07:13:28-04:00"
+                 who="http://papyri.info/editor/users/IsabelleMarthot">Submit - The link in "images" field pointed to an Arabic document.
+
+For this text in Vienna database, the link is 
+
+http://aleph.onb.ac.at/F/?func=find-c&amp;ccl_term=WID%3DRZ00004241&amp;local_base=ONB08
+
+but no image provided there</change>
+         <change when="2016-09-08T07:09:21-04:00"
+                 who="http://papyri.info/editor/users/IsabelleMarthot">Commit - the link in "Digital Image" was to an Arabic document, apparently no digital image for this papyrus provided by the Vienna website </change>
+         <change who="HGV" when="1992-07-31">Record created</change>
+         <change who="HGV" when="2011-02-03">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Datierung: 18. Indiktion. Zur Datierung vgl. BL VII, S. 94 und ZPE 29, 1978, S. 264.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Vindob. Bosw.</title>
+                  <biblScope n="1" type="numbers">10</biblScope>
+                  <biblScope n="2" type="side">V</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure"/>
+      </body>
+  </text>
+</TEI>
